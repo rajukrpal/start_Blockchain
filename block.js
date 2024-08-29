@@ -38,8 +38,10 @@ const Bolck2 = new Block({
 // console.log("🚀 ~ Bolck1:", Bolck1);
 // console.log("🚀 ~ Bolck2:", Bolck2);
 
-const genesisBlock = Block.genesis();
+// const genesisBlock = Block.genesis();
 //  console.log("🚀 ~ genesisBlock:", genesisBlock)
 
-const result = Block.mineBlock({ prevBlock: Bolck1, data: "Bolck2" });
-console.log("🚀 ~ result:", result);
+// const result = Block.mineBlock({ prevBlock: Bolck1, data: "Bolck2" });
+// console.log("🚀 ~ result:", result);
+
+module.exports=Block
